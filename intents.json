@@ -1,0 +1,30 @@
+{
+    "intents" : [
+        {
+            "tag" : "greeting",
+            "patterns" : ["Hi","Hey","Hello","Good Morning","Good Afternoon","Good Evening","Hiya","Is there Anyone"],
+            "responses": ["Hi","Hello","Good Morning","Good Afternoon","Good Evening","Hiya","Hi there"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye","See You Later", "Goodbye"],
+            "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+        },
+        {"tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+        },
+        {"tag": "about",
+            "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+            "responses": ["I'm John, your bot assistant", "I'm Joahn, an Artificial Intelligent bot"]
+        },
+        {"tag": "name",
+            "patterns": ["what is your name", "what should I call you", "whats your name?"],
+            "responses": ["You can call me John.", "I'm John!", "Just call me as John"]
+        },
+        {"tag": "help",
+            "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+            "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        }
+    ]
+}
