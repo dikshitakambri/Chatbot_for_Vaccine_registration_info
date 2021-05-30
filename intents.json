@@ -25,6 +25,22 @@
         {"tag": "help",
             "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
             "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+        },
+        {"tag": "Vaccination",
+            "patterns": ["How to register for vaccination?", "I want to register for vaccination", "How can I register for vaccination"],
+            "responses": ["You will find a Button, Book Vaccine now on header section for registration. You just have to click on it and fill the registration form. "]
+        },
+        {"tag":"form",
+            "patterns":["How to fill form?", "I don't have email, then what do I do?"],
+            "responses":["You just have to enter all the details mentioned in the form. Then click on Register button and it will redirect to the Apponitment form, where you have to select nearby hospital and available slots.That's it"]
+        },
+        {"tag":"Hospital",
+            "patterns":["Where we can see nearby hospital?", "Nearby Hospital","Give me the names of nearby hospitals where Vaccination is taking place?"],
+            "responses":["At navigatio you will find Hospitals section. Click on it and you will find nearby hospitals."]
+        },
+        {"tag":"licensed Vaccines",
+            "patterns":["Which COVID-19 vaccines are licensed in India?"],
+            "responses":["Two vaccines that have been granted emergency use authorization by the Central Drugs Standard Control Organization (CDSCO) in India are Covishield® (AstraZeneca's vaccine manufactured by Serum Institute of India) and Covaxin® (manufactured by Bharat Biotech Limited)."]
         }
     ]
 }
