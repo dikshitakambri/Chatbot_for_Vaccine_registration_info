@@ -2,6 +2,7 @@ import json
 import numpy as np
 from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
+import tensorflowjs as tfjs
 
 import colorama 
 colorama.init()
@@ -43,6 +44,8 @@ def chat():
                 print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL , np.random.choice(i['responses']))
 
         # print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL,random.choice(responses))
+        
+        tfjs.converters.save_keras_model(model, 'C:/Users/hp/Documents/Python_Chatbot')
 
 print(Fore.YELLOW + "Start messaging with the bot (type quit to stop)!" + Style.RESET_ALL)
 
